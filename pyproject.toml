@@ -1,0 +1,19 @@
+[project]
+name = "nlp-stock-analysis"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "ninest", email = "parth.kabra@gmail.com"},
+]
+dependencies = [
+    "ipykernel>=6.29.3",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+
+[tool.pdm.scripts]
+main = "python -m nlp_stock_analysis"
+
+[tool.pdm]
+distribution = false
